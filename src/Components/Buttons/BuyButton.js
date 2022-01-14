@@ -1,9 +1,9 @@
-import './BuyButton.css'
+import './ActionButtons.css'
 
 const BuyButton = () => {
 
     return (
-        <div className="buy_button">
+        <div className="action_button">
             Buy
         </div>
 
