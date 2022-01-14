@@ -1,0 +1,23 @@
+.coin_box {
+    font-size: 1rem;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    background-color: #216816;
+    border: 1px solid rgb(14, 13, 13);
+    padding: 5px;
+    border-radius: 12px;
+    width: 250px;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    overflow: auto;
+  
+  }
+
+.coin_box_title {
+    font-size: 24px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+}

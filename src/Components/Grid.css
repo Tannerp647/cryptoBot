@@ -1,0 +1,49 @@
+.holder {
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  
+    
+}
+
+.wrapper_coin_box {
+ display:grid;
+ grid-column: 1;
+ justify-self: center;
+ height: fit-content;
+ width: fit-content;
+}
+
+.wrapper_purchase_box {
+    display:grid;
+    grid-column: 2;
+    justify-self: center;
+    width: fit-content;
+    height: fit-content;
+}
+
+.wrapper_que_box {
+    display:grid;
+    grid-column: 4;
+    justify-self: center;
+    height: fit-content;
+    width: fit-content;
+}
+
+.wrapper_transaction_box {
+    display:grid;
+    grid-column: 5;
+    justify-self: center;
+    height: fit-content;
+    width: fit-content;
+}
+
+.nested_grid {
+    display: grid;
+    grid-template-rows: 1fr, 1fr, 1fr, 1fr;
+    grid-column: 3;
+    grid-row: 1;
+    justify-self: center;
+    
+
+
+}
