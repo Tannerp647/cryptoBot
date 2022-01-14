@@ -1,4 +1,4 @@
-import './TransactionHistoryDisplay.css';
+import './DisplayBoxes.css';
 import './Grid.css'
 
 const TransactionHistoryDisplay = () => {
@@ -6,8 +6,8 @@ const TransactionHistoryDisplay = () => {
     return (
 
         <div className="wrapper_transaction_box">
-            <div className="transaction_history_box">
-                <div className="transaction_history_box_title">
+            <div className="box">
+                <div className="box_title">
                     Transaction History
                 </div>
                 <div>

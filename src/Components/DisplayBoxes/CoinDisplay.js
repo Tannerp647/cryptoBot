@@ -1,4 +1,4 @@
-import './CoinDisplay.css';
+import './DisplayBoxes.css';
 import './Grid.css'
 
 
@@ -9,8 +9,8 @@ const CoinDisplay = () => {
 
         <div className="wrapper_coin_box">
 
-            <div className="coin_box">
-                <div className="coin_box_title">
+            <div className="box">
+                <div className="box_title">
                     Coin Display
                 </div>
                 <div>

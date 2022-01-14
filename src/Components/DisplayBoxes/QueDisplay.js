@@ -1,4 +1,4 @@
-import './QueDisplay.css';
+import './DisplayBoxes.css';
 import './Grid.css'
 
 const QueDisplay = () => {
@@ -6,8 +6,8 @@ const QueDisplay = () => {
     return (
         <div className="wrapper_que_box">
 
-            <div className="que_box">
-                <div className="que_box_title">
+            <div className="box">
+                <div className="box_title">
                     Que Display
                 </div>
                 <div>

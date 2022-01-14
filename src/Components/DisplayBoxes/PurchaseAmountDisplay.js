@@ -1,4 +1,4 @@
-import './PurchaseAmountDisplay.css';
+import './DisplayBoxes.css';
 import './Grid.css'
 
 const PurchaseAmountDisplay = () => {
@@ -8,8 +8,8 @@ const PurchaseAmountDisplay = () => {
 
         <div className="wrapper_purchase_box">
 
-            <div className="purchase_box">
-                <div className="purchase_box_title">
+            <div className="box">
+                <div className="box_title">
                     Purchase Display
                 </div>
                 <div>

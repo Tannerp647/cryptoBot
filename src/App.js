@@ -1,13 +1,13 @@
 import './App.css';
-import './Components/Grid.css';
-import CoinDisplay from './Components/CoinDisplay';
-import PurchaseAmountDisplay from './Components/PurchaseAmountDisplay'
-import QueDisplay from './Components/QueDisplay'
-import TransactionHistoryDisplay from './Components/TransactionHistoryDisplay';
+import './Components/DisplayBoxes/Grid.css';
+import CoinDisplay from './Components/DisplayBoxes/CoinDisplay';
+import PurchaseAmountDisplay from './Components/DisplayBoxes/PurchaseAmountDisplay'
+import QueDisplay from './Components/DisplayBoxes/QueDisplay'
+import TransactionHistoryDisplay from './Components/DisplayBoxes/TransactionHistoryDisplay';
+import TotalInvesting from './Components/DisplayBoxes/TotalInvesting';
+import NetTotal from './Components/DisplayBoxes/NetTotal';
 import BuyButton from './Components/Buttons/BuyButton'
-import TotalInvesting from './Components/TotalInvesting';
 import SellButton from './Components/Buttons/SellButton';
-import NetTotal from './Components/NetTotal';
 
 function App() {
   return (
