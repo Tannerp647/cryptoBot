@@ -1,9 +1,9 @@
-import './TotalInvesting.css'
+import './TotalBoxes.css'
 
 const TotalInvesting = () => {
 
     return (
-        <div className="total_investing_box">
+        <div className="total_invest_box total_boxes">
             Total Investing
 
         </div>
