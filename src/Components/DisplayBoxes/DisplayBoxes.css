@@ -22,10 +22,7 @@
     padding: 10px;
 }
 
-.box_hover:hover {
+.box_hover {
   cursor: pointer;
 }
 
-.box_selected::selection {
-  background-color: grey;
-}
