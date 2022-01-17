@@ -12,6 +12,7 @@
     margin-right: auto;
     text-align: center;
     overflow: auto;
+    
   
   }
 
@@ -22,7 +23,16 @@
     padding: 10px;
 }
 
-.box_hover {
+.box_hover:hover {
   cursor: pointer;
+  background-color: black;
 }
 
+.ul {
+  list-style: none;
+  padding: 3px;
+}
+
+.li {
+  margin: 10px;
+}

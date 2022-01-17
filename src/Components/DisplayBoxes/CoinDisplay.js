@@ -1,5 +1,5 @@
 import './DisplayBoxes.css';
-import './Grid.css'
+import './Grid.css';
 import React, { useState } from 'react';
 
 
@@ -21,15 +21,15 @@ const CoinDisplay = () => {
                 </div>
                 <div>
                     Coin name .. Current price
-                    <ul>
+                    <ul className="ul">
 
-                        <li onClick={coinSelectionHandler} className="box_hover ">Bitcoin .... $47,839</li>
+                        <li onClick={coinSelectionHandler} className="box_hover">Bitcoin .... $47,839</li>
 
                     </ul>
                 </div>
             </div>
 
-        </div>
+        </div >
 
     );
 };
