@@ -1,10 +1,12 @@
+import React, { useState, useContext } from 'react';
 import './DisplayBoxes.css';
 import './Grid.css';
-import React, { useState } from 'react';
+import { SelectedCoinContext } from '../../Context/SelectedCoinContext'
+
 
 
 const CoinDisplay = () => {
-    const [selectedCoin, setSelectedCoin] = useState();
+    const [selectedCoin, setSelectedCoin] = useContext(SelectedCoinContext);
 
     const coinSelectionHandler = () => {
         setSelectedCoin('Bitcoin1')
