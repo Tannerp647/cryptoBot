@@ -8,8 +8,8 @@ import { SelectedCoinContext } from '../../Context/SelectedCoinContext'
 const CoinDisplay = () => {
     const [selectedCoin, setSelectedCoin] = useContext(SelectedCoinContext);
 
-    const coinSelectionHandler = () => {
-        setSelectedCoin('Bitcoin1')
+    const coinSelectionHandler = (event) => {
+        setSelectedCoin(event.target.textContent.split(" ")[0])
     }
 
     console.log(selectedCoin);
@@ -26,6 +26,8 @@ const CoinDisplay = () => {
                     <ul className="ul">
 
                         <li onClick={coinSelectionHandler} className="li">Bitcoin .... $42,848</li>
+                        <li onClick={coinSelectionHandler} className="li">Etherium .... $3,000</li>
+                        <li onClick={coinSelectionHandler} className="li">DogeCoin .... $0.17</li>
 
                     </ul>
                 </div>

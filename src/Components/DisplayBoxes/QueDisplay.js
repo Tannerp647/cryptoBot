@@ -1,6 +1,7 @@
 import './DisplayBoxes.css';
 import './Grid.css'
 
+
 const QueDisplay = () => {
 
     return (
