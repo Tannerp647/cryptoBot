@@ -23,10 +23,6 @@
     padding: 10px;
 }
 
-.box_hover:hover {
-  cursor: pointer;
-  background-color: black;
-}
 
 .ul {
   list-style: none;
@@ -35,4 +31,9 @@
 
 .li {
   margin: 10px;
+}
+
+.li:hover {
+  cursor: pointer;
+  background-color: black;
 }

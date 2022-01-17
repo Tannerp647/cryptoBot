@@ -19,7 +19,7 @@ const PurchaseAmountDisplay = () => {
                 <div className="box_title">
                     Purchase Display
                 </div>
-                <div className="box_hover">
+                <div>
                     <ul className="ul">
                         <li className="li" onClick={purchaseAmountHandler}>$1</li>
                         <li className="li">$2</li>
