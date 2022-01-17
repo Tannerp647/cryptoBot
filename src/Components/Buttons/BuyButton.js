@@ -1,12 +1,14 @@
 import React, { useContext } from 'react';
 import { SelectedCoinContext } from '../../Context/SelectedCoinContext'
+import { PurchaseAmountContext } from '../../Context/PurchaseAmountContext'
 import './ActionButtons.css';
 
 const BuyButton = () => {
     const [selectedCoin, setSelectedCoin] = useContext(SelectedCoinContext);
+    const [purchaseAmount, setPurchaseAmount] = useContext(PurchaseAmountContext);
 
     const buyButtonHandler = () => {
-        alert(`Are you sure you want to purchase $1 of ${selectedCoin} ? `)
+        alert(`Are you sure you want to purchase ${purchaseAmount} of ${selectedCoin}? `)
     }
 
     return (

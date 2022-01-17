@@ -25,7 +25,7 @@ const CoinDisplay = () => {
                     Coin name .. Current price
                     <ul className="ul">
 
-                        <li onClick={coinSelectionHandler} className="li">Bitcoin .... $47,839</li>
+                        <li onClick={coinSelectionHandler} className="li">Bitcoin .... $42,848</li>
 
                     </ul>
                 </div>

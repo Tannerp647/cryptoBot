@@ -1,10 +1,11 @@
 import './DisplayBoxes.css';
 import './Grid.css';
-import React, { useState } from 'react';
+import React, { useContext } from 'react';
+import { PurchaseAmountContext } from '../../Context/PurchaseAmountContext';
 
 const PurchaseAmountDisplay = () => {
 
-    const [purchaseAmount, setPurchaseAmount] = useState();
+    const [purchaseAmount, setPurchaseAmount] = useContext(PurchaseAmountContext);
 
     const purchaseAmountHandler = () => {
         setPurchaseAmount('$1')
