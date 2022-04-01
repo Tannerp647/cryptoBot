@@ -8,8 +8,8 @@ import TotalInvesting from './TotalInvesting';
 import NetTotal from './NetTotal';
 import BuyButton from '../Buttons/BuyButton';
 import SellButton from '../Buttons/SellButton';
-import { SelectedCoinProvider } from '../../Context/SelectedCoinContext';
-import { PurchaseAmountProvider } from '../../Context/PurchaseAmountContext';
+import { SelectedCoinProvider } from '../../context/SelectedCoinContext';
+import { PurchaseAmountProvider } from '../../context/PurchaseAmountContext';
 
 
 function RenderDisplays() {

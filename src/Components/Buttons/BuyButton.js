@@ -1,6 +1,6 @@
 import React, { useContext } from 'react';
-import { SelectedCoinContext } from '../../Context/SelectedCoinContext'
-import { PurchaseAmountContext } from '../../Context/PurchaseAmountContext'
+import { SelectedCoinContext } from '../../context/SelectedCoinContext'
+import { PurchaseAmountContext } from '../../context/PurchaseAmountContext'
 import './ActionButtons.css';
 
 const BuyButton = () => {

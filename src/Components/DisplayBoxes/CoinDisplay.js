@@ -1,7 +1,7 @@
 import React, { useContext } from 'react';
 import './DisplayBoxes.css';
 import './Grid.css';
-import { SelectedCoinContext } from '../../Context/SelectedCoinContext'
+import { SelectedCoinContext } from '../../context/SelectedCoinContext'
 
 
 

@@ -1,7 +1,7 @@
 import './DisplayBoxes.css';
 import './Grid.css';
 import React, { useContext } from 'react';
-import { PurchaseAmountContext } from '../../Context/PurchaseAmountContext';
+import { PurchaseAmountContext } from '../../context/PurchaseAmountContext';
 
 const PurchaseAmountDisplay = () => {
 

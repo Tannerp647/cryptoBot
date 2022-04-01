@@ -1,8 +1,8 @@
 import { useContext } from 'react';
 import './DisplayBoxes.css';
 import './Grid.css'
-import { SelectedCoinContext } from '../../Context/SelectedCoinContext'
-import { PurchaseAmountContext } from '../../Context/PurchaseAmountContext'
+import { SelectedCoinContext } from '../../context/SelectedCoinContext'
+import { PurchaseAmountContext } from '../../context/PurchaseAmountContext'
 import React from 'react';
 
 
